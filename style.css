@@ -1,0 +1,43 @@
+/*seletor universal */
+
+*{
+    padding: 0; /* espaçamento itnerno */
+    margin: 0; /*espaçamento externo */
+}
+/* seletor da tag */
+body{
+    background-color: burlywood;
+}
+div{
+    background-color: aquamarine; /*cor do fundo !importante deixar algo importante */
+    height: 150px; /*altura*/
+    margin: 5px;  /*espaçamento interno*/
+}
+p{
+    color: gray;
+}
+
+/* seletor de class*/
+
+.principal{
+    background-color: brown; /* cor de fundo*/
+} 
+.destaque{
+font-size: 18px; /*tamanho da fonte*/
+text-align: center; /* alinhamento do texto*/
+color: crimson; /* cor da fonte*/
+font-family: 'Lucida Sans', Verdana, sans-serif;
+}
+.txt{
+    font-size: 14px
+
+}
+#txt-css{
+    font-size: 22px; /*tamanho da fonte*/
+    color:darkblue; /*cor da fonte*/
+    background-color: pink; /* cor do plano de fundo*/
+    font-style: italic; /* colocando em italico*/
+    font-weight: 900; /*colocando em negrito*/
+    font-family: 'Courier New', Courier, monospace;
+
+}
